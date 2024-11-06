@@ -1,6 +1,6 @@
 {% set name = "splunk_handler" %}
-{% set version = "2.2.2" %}
-{% set sha256 = "1a2374f1ce2f488fd8e4340460a74804c25ac44a5932fbc287bfc8e7355a1dc5" %}
+{% set version = "3.0.0" %}
+{% set sha256 = "a835b0a7161148aceb977301c6dba21bb96e7635279c7e90e0216c78a4bcbb24" %}
 
 package:
   name: {{ name|lower }}
@@ -36,12 +36,12 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'A Python logging handler that sends your logs to Splunk'
+  summary: A Python logging handler that sends your logs to Splunk
 
   description: |
-      Splunk Handler is a Python Logger for sending logged events to an installation
-      of Splunk Enterprise. This logger requires the destination Splunk Enterprise 
-      server to have enabled and configured the Splunk HTTP Event Collector.
+    Splunk Handler is a Python Logger for sending logged events to an installation
+    of Splunk Enterprise. This logger requires the destination Splunk Enterprise 
+    server to have enabled and configured the Splunk HTTP Event Collector.
 
 extra:
   recipe-maintainers:
